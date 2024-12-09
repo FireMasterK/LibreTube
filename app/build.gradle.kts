@@ -115,9 +115,6 @@ dependencies {
     implementation(libs.androidx.media3.exoplayer.hls)
     implementation(libs.androidx.media3.exoplayer.dash)
     implementation(libs.androidx.media3.session)
-    implementation(libs.androidx.media3.datasource.cronet) {
-        exclude(group = "com.google.android.gms")
-    }
 
     /* Retrofit and Kotlinx Serialization */
     implementation(libs.square.retrofit)
